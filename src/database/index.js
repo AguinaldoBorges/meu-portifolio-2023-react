@@ -5,7 +5,7 @@ const projetos = [
         description:
             "Nesse projeto desenvolvi este portfolio usando componentes. Possui sistema de filtro para exibir os projetos de acordo com a tecnologia selecionada. Ao tocar na imagem de um projeto ela começa a se mexer, mostrando o projeto em uso. Na sessão de skills é exibida uma descrição ao selecionar cada uma. Adicionei um botão fluruante para rolar a página ao topo a qualquer momento durante a navegação. O site está responsivo, adequando-se a tablets dispositivos moveis.",
         links: [
-            { label: "Código", url: "https://github.com/AguinaldoBorges/Calculadora-de-vale-transporte" },
+            { label: "Código", url: "https://github.com/AguinaldoBorges/meu-portifolio-2023-react" },
             { label: "Site", url: "https://www.aguinaldoborges.com.br/" }
         ],
         imageSrc: "/projetos/projeto12.jpg"
