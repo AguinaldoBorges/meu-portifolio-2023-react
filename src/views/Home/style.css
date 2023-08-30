@@ -1,0 +1,221 @@
+section {
+    min-height: 100vh;
+}
+
+.title {
+    font-weight: 400;
+}
+
+.title-skills {
+    padding-bottom: 30px;
+
+    font-weight: 400;
+}
+
+#home {
+    background: url('../../assets/background-1.png') no-repeat;
+    background-size: contain;
+    background-position-y: top;
+    background-position-x: right;
+    background-color: #ffffff;
+    color: #252525;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-imagem {
+    background: url('../../assets/aguinaldo.png') no-repeat;
+    background-size: contain;
+    background-position-y: 13px;
+    background-position-x: right;
+
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home-texto {
+    text-align: left;
+}
+
+#skills {
+    min-height: 10vh;
+    padding-bottom: 10vh;
+
+}
+
+#skills-imanges {
+    padding: 15px;
+    padding-bottom: 0;
+    background-color: #ffffff;
+}
+
+#imagem-da-skill {
+    width: 70px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+
+    border: #44433f solid 6px;
+    border-radius: 100px;
+    box-shadow: -8px -8px 10px #44433f;
+}
+
+#imagem-da-skill:hover {
+    border: #D2B004 solid 6px;
+    border-radius: 100px;
+    box-shadow: -8px -8px 10px #D2B004;
+
+}
+
+#skills-icons {
+    min-height: 50vh;
+}
+
+#layout-2-colunas-esquerda {
+    background: url('../../assets/background-2.png') no-repeat;
+    background-size: contain;
+    background-position-x: -150px;
+    background-color: #ffffff;
+    color: #252525;
+    min-height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#layout-2-colunas-neutro {
+    background-color: #ffffff;
+    color: #252525;
+    min-height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#layout-2-colunas-direita {
+    background: url('../../assets/background-4.png') no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: #ffffff;
+    color: #252525;
+    min-height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+#layout-3-colunas {
+    background-color: #ffffff;
+    color: #252525;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#layout-4-colunas {
+    background-color: #c0c0c0;
+    color: #252525;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsivo */
+
+/* Estilos para dispositivos móveis pequenos (320px) */
+@media (min-width: 320px) {
+
+    /* Estilos aqui */
+
+}
+
+/* Estilos para dispositivos móveis de tela um pouco maior (480px) */
+@media (max-width: 480px) {
+
+    /* Estilos aqui */
+    * {
+        font-size: 1.2rem;
+        text-align: center;
+
+    }
+
+    #home {
+        min-height: 50vh;
+    }
+
+    #home-imagem {
+        min-height: 50vh;
+        background: none;
+    }
+
+    #home-texto {
+        background-color: #ffffffc7;
+    }
+
+
+
+}
+
+/* Estilos para tablets e dispositivos móveis com tela maior (768px) */
+@media (max-width: 767px) {
+
+    /* Estilos aqui */
+
+
+
+}
+
+@media (min-width: 768px) {
+
+    /* Estilos aqui */
+
+}
+
+@media (max-width: 991px) {
+
+    /* Estilos aqui */
+    #home-texto {
+        background-color: #ffffffc7;
+    }
+
+    .projetos-container {
+        background-color: #ffffffc7;
+        border: solid 1px #D2B004;
+        margin-top: 15px;
+        padding: 10px;
+
+    }
+}
+
+/* Estilos para laptops e monitores menores (992px) */
+@media (min-width: 992px) {
+
+    /* Estilos aqui */
+
+
+}
+
+/* Estilos para monitores maiores (1200px) */
+@media (min-width: 1200px) {
+
+    /* Estilos aqui */
+
+}

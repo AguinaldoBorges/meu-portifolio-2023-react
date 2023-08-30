@@ -1,0 +1,16 @@
+#btn-topo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    height: 50px;
+    width: 50px;
+
+    padding: 10px;
+
+    border-radius: 50px;
+
+    background-color: #ffffff;
+
+    box-shadow: 2px 2px 5px #252525;
+}

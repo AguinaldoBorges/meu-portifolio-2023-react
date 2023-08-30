@@ -1,0 +1,13 @@
+#projeto-texto {
+    text-align: left;
+
+    padding-left: 10px;
+    padding-right: 20px;
+
+    border-left: solid 5px #D2B004;
+}
+
+.botao-projeto {
+    width: 100%;
+    margin: 5px;
+}
