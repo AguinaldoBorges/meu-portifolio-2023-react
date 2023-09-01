@@ -17,11 +17,11 @@ function ProjetoTexto({ projeto }) {
                 <div className='container-fluid'>
                     <div className='row d-flex justify-content-start'>
                         <div className='col col-lg-4 col-md-5 col-12'>
-                            <a className='btn btn-dark text-warning botao-projeto' href={projeto.links[0].url}>{projeto.links[0].label}</a>
+                            <a className='btn btn-dark text-warning botao-projeto' href={projeto.links[0].url} target='_blank'>{projeto.links[0].label}</a>
                         </div>
                         {projeto.links[1] ?
                             <div className='col col-lg-4 col-md-5 col-12'>
-                                <a className='btn btn-dark text-warning botao-projeto' href={projeto.links[1].url}>{projeto.links[1].label}</a>
+                                <a className='btn btn-dark text-warning botao-projeto' href={projeto.links[1].url} target='_blank'>{projeto.links[1].label}</a>
                             </div>
                             :
                             ''}
